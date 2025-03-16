@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.Serializable;
 import java.io.*;
 import java.util.AbstractList;
-import java.util.ArrayList;public class SavedList<E extends Serializable> extends AbstractList<E>
+import java.util.ArrayList;
+
+public class SavedList<E extends Serializable> extends AbstractList<E>
 {
     private File DiskList;
     private ArrayList<E> ArrList = new ArrayList<E>();
